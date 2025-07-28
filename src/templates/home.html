@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Home- {{block.super}}{% endblock %}
+
+{% block content %}
+
+<h1>Welcome {{name}}</h1>
+<p>This is the home page of our site.</p>
+
+<p> Page Vitits: {{page_visit}}</p>
+<p> Total Vitits: {{total_page_visits}}</p>
+<p> Percentage of Visits: {{percentage}}%<p>
+
+{% endblock %}
