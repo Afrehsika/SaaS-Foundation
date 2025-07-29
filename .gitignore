@@ -1,5 +1,7 @@
 #ignore vendor static files
-C:\Users\Afreh Kriss Ntim\saas\src\staticfiles\vendors
+src\staticfiles\vendors
+
+
 
 #ignore local-cdn static files
 local-cdn/
