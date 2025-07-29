@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>{% block title %}My Site{% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   {% include "base/css.html" %}
     {% block head %}{% endblock %}
 </head>
 <body>
+{% include "nav/navbar.html" %}
     {% block content %}
     <h1>Welcome to My Site</h1>
     {% endblock %}
-</body>
+   {% include "base/js.html" %}
 </html>
