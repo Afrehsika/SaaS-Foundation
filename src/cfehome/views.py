@@ -3,6 +3,8 @@ from visits.models import PageVisit
 
 
 def home(request,*args, **kwargs):
+    if request.user.is_authenticated:
+        print(request.user.first_name)
     return about(request, *args, **kwargs)
 
 
