@@ -30,3 +30,5 @@ def register_view(request):
         except:
             pass
    return render(request, 'auth/register.html', {})
+
+
